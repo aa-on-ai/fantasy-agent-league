@@ -1,8 +1,8 @@
-* @aa-on-ai
+* @aa-on-ai @peterklipfel
 
-/constitution/ @aa-on-ai
-/agents/ @aa-on-ai
-/src/core/ @aa-on-ai
-/src/platforms/ @aa-on-ai
-/platforms/ @aa-on-ai
-/.github/ @aa-on-ai
+/constitution/ @aa-on-ai @peterklipfel
+/agents/ @aa-on-ai @peterklipfel
+/src/core/ @aa-on-ai @peterklipfel
+/src/platforms/ @aa-on-ai @peterklipfel
+/platforms/ @aa-on-ai @peterklipfel
+/.github/ @aa-on-ai @peterklipfel
