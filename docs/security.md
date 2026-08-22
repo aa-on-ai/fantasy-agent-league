@@ -30,4 +30,6 @@ The public repository contains code, policy, declared strategy, tests, sample co
 6. An unverified capability stays disabled.
 7. A failed write retries once, then stops and records the failure.
 
+The read-only dry-run command accepts Yahoo access tokens only through the runtime environment. Tokens must never appear in command arguments, fixtures, reports, or error messages. Public snapshots contain only allowlisted league, team, roster, and player fields and are rejected when their content does not match the published snapshot hash.
+
 The first live connection requires a disposable test context, explicit authorization, and proof that logs cannot disclose tokens or unresolved competitive decisions.
