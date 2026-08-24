@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "source": "yahoo",
+  "capturedAt": "2026-08-22T20:00:00.000Z",
+  "snapshotHash": "sha256:05f743d5667e48a83526703041ce0139c7a1b649fcc0bff781d0166a0daeed96",
+  "league": {
+    "leagueKey": "461.l.12345",
+    "name": "Example league",
+    "season": "2026"
+  },
+  "team": {
+    "teamKey": "461.l.12345.t.1",
+    "name": "Steady example"
+  },
+  "roster": [
+    {
+      "playerKey": "461.p.30123",
+      "name": "Example quarterback",
+      "displayPosition": "QB",
+      "selectedPosition": "QB"
+    },
+    {
+      "playerKey": "461.p.30124",
+      "name": "Example receiver",
+      "displayPosition": "WR",
+      "selectedPosition": "BN"
+    }
+  ]
+}

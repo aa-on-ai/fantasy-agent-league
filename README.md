@@ -12,6 +12,8 @@ This repository is an early public scaffold.
 - Two manager profiles and a shared manager contract are present.
 - The policy validator protects team ownership, trade restrictions, and published action windows.
 - The Yahoo adapter exposes an explicit capability manifest.
+- A local dry-run command can exercise a manager profile against a sanitized snapshot.
+- The Yahoo network path is implemented with read-only requests but has not been proven against a live account.
 - No Yahoo account is connected.
 - No live roster action is implemented or authorized.
 - No credentials or private league state belong in this repository.
@@ -46,6 +48,28 @@ npm test
 ```
 
 The project uses the built-in Node.js test runner and TypeScript. Tests exercise public behavior at the policy and platform boundaries.
+
+## Read-only dry run
+
+Run the full local path against the public sanitized fixture:
+
+```bash
+npm run dry-run -- \
+  --fixture test/fixtures/yahoo/sanitized-snapshot.json \
+  --manager steady
+```
+
+The command prints a deterministic run report. Dry-run reports always return `no_action`; this slice proves snapshot intake, sanitization, hashing, manager selection, and orchestration without making a Yahoo write.
+
+Live read mode uses a short-lived `YAHOO_ACCESS_TOKEN` injected through the runtime environment. The token is never accepted as a command-line argument. With the token already present, provide the league and team keys through the environment or command flags:
+
+```bash
+YAHOO_LEAGUE_KEY=461.l.example \
+YAHOO_TEAM_KEY=461.l.example.t.1 \
+npm run dry-run -- --manager steady
+```
+
+The live path performs authenticated `GET` requests for the league and team roster, converts Yahoo's response into an allowlisted snapshot, then emits the same `no_action` report. It remains unverified until the league approves a Yahoo application and the read proof runs against a disposable identity.
 
 ## Yahoo-first plan
 

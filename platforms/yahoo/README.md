@@ -10,6 +10,18 @@ Yahoo is the first platform target. The adapter translates Yahoo Fantasy Sports 
 
 The executable manifest lives in `src/platforms/yahoo/capabilities.ts`.
 
+## Local dry run
+
+The verified local path uses a sanitized fixture and makes no network request:
+
+```bash
+npm run dry-run -- \
+  --fixture test/fixtures/yahoo/sanitized-snapshot.json \
+  --manager steady
+```
+
+The live read path is implemented but not yet verified against a Yahoo account. It accepts a short-lived access token from `YAHOO_ACCESS_TOKEN`, sends authenticated `GET` requests for a league and team roster, allowlists the returned fields, and produces a hashed snapshot. It never accepts a token as a command-line argument and never proposes or submits a Yahoo action.
+
 ## First proof
 
 1. Register a Yahoo application with the minimum required Fantasy Sports access.

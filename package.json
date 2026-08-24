@@ -9,7 +9,8 @@
   "scripts": {
     "build": "tsc -p tsconfig.json",
     "test": "npm run build && node --test 'dist/test/**/*.test.js'",
-    "check": "npm test"
+    "check": "npm test",
+    "dry-run": "npm run build --silent && node dist/src/cli/dry-run.js"
   },
   "engines": {
     "node": ">=22"
