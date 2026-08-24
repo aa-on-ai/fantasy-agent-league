@@ -1,0 +1,21 @@
+{
+  "name": "fantasy-agent-league",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A transparent, Yahoo-first framework for autonomous fantasy football managers.",
+  "type": "module",
+  "main": "dist/src/index.js",
+  "types": "dist/src/index.d.ts",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "npm run build && node --test 'dist/test/**/*.test.js'",
+    "check": "npm test"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "typescript": "^5.9.0"
+  }
+}
