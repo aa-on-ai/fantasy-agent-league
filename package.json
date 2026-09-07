@@ -10,7 +10,11 @@
     "build": "tsc -p tsconfig.json",
     "test": "npm run build && node --test 'dist/test/**/*.test.js'",
     "check": "npm test",
-    "dry-run": "npm run build --silent && node dist/src/cli/dry-run.js"
+    "dry-run": "npm run build --silent && node dist/src/cli/dry-run.js",
+    "agent:browser": "node scripts/agent-browser.mjs",
+    "agent:readiness": "node scripts/agent-readiness.mjs",
+    "agent:plan": "npm run build --silent && node dist/src/cli/season-plan.js",
+    "acceptance": "npm test"
   },
   "engines": {
     "node": ">=22"
@@ -18,5 +22,8 @@
   "devDependencies": {
     "@types/node": "^24.0.0",
     "typescript": "^5.9.0"
+  },
+  "dependencies": {
+    "playwright-core": "1.63.0"
   }
 }

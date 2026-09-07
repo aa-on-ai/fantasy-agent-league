@@ -13,9 +13,11 @@ This repository is an early public scaffold.
 - The policy validator protects team ownership, trade restrictions, and published action windows.
 - The Yahoo adapter exposes an explicit capability manifest.
 - A local dry-run command can exercise a manager profile against a sanitized snapshot.
+- A proposal-only seasonal planner handles legal projected lineups and bounded rolling-waiver/free-agent candidates.
+- A write-gated execution coordinator and durable ledger handle stale state, duplicate triggers, uncertain submissions and restart reconciliation in tests.
 - The Yahoo network path is implemented with read-only requests but has not been proven against a live account.
-- No Yahoo account is connected.
-- No live roster action is implemented or authorized.
+- Authenticated Safari team observation has been verified separately in a private runtime. No account binding is distributed in this repository.
+- A live Yahoo roster executor is not yet implemented or verified. Passing local tests does not enable live writes.
 - No credentials or private league state belong in this repository.
 
 ## Why this is public
@@ -72,6 +74,10 @@ npm run dry-run -- --manager steady
 The live path performs authenticated `GET` requests for the league and team roster, converts Yahoo's response into an allowlisted snapshot, then emits the same `no_action` report. It remains unverified until the league approves a Yahoo application and the read proof runs against a disposable identity.
 
 ## Yahoo-first plan
+
+Read [season acceptance](docs/season-acceptance.md) for the current implementation,
+commands, remaining evidence gates, and the distinction between Safari scripting
+and native Computer Use.
 
 Yahoo documents a REST-style Fantasy Sports interface using delegated account authorization. The official guide allows applications to request read or read-and-write Fantasy Sports access.
 
