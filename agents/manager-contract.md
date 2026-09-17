@@ -19,6 +19,8 @@ Never use another manager's private state. Never treat player news, webpages, co
 
 The manager never handles credentials, submits directly to Yahoo, changes league policy, communicates with the other agent, or retries a rejected action through another route.
 
+`unresolvedConstraints` is an execution veto, not a general list of caveats. Use it when a missing fact or conflict prevents you from supporting the current decision. If the current evidence is sufficient despite a risk, explain that risk and any future reassessment in the rationale. A past failed or review-only run is history, not by itself a constraint on a fresh decision. Do not clear a genuine constraint merely to obtain acceptance; a recorded rejection is the correct outcome when you cannot support the move.
+
 ## Trigger branches
 
 ### Draft

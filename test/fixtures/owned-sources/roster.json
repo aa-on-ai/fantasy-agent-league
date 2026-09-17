@@ -1,0 +1,558 @@
+{
+  "observationId": "05570fe3a89b0d4ee7b03622c17564c12326d21911a0ed4bdd4576afda5c8276",
+  "profileId": "fixture-profile",
+  "url": "https://football.fantasysports.yahoo.com/f1/100/1",
+  "capturedAt": "2026-09-15T22:36:52.517Z",
+  "dom": {
+    "title": "Example League - Example Team | Fantasy Football | Yahoo! Sports",
+    "text": "All game times are shown in EDT.",
+    "headings": [],
+    "links": [
+      {
+        "text": "My Team",
+        "href": "https://football.fantasysports.yahoo.com/f1/100/1",
+        "title": "",
+        "attributes": {
+          "class": "_yb_p1y64c  _yb_8737ki  rapid-noclick-resp",
+          "data-ylk": "cpos:3;slk:My Team;elm:navcat;sec:ybar;subsec:navrail;pkgt:mid;itc:0;",
+          "data-yga": "{\"yLinkText\":\"My Team\",\"yLinkElement\":\"navcat\",\"ySection\":\"primary-nav\",\"ySubModuleName\":\"top-bar\"}"
+        }
+      }
+    ],
+    "controls": [],
+    "tables": [
+      {
+        "caption": "Example Team's Offense roster for week 2.",
+        "attributes": {},
+        "headers": [
+          "Pos",
+          "Edit",
+          "Offense",
+          "Bye",
+          "Fan Pts",
+          "Proj Pts",
+          "% Start",
+          "% Ros",
+          "Yds",
+          "TD",
+          "Int",
+          "Att*",
+          "Yds",
+          "TD",
+          "Tgt*",
+          "Rec",
+          "Yds",
+          "TD",
+          "TD",
+          "2PT",
+          "Lost",
+          ""
+        ],
+        "rows": [
+          {
+            "cells": [
+              "QB",
+              "QBBN",
+              "Dak PrescottPlayer Note\nDal - QB\nSun 4:25 pm vs Was",
+              "14",
+              "–",
+              "21.17",
+              "76%",
+              "97%",
+              "-",
+              "-",
+              "-",
+              "-",
+              "-",
+              "-",
+              "-",
+              "-",
+              "-",
+              "-",
+              "-",
+              "-",
+              "-",
+              ""
+            ],
+            "links": [
+              {
+                "text": "Dak Prescott",
+                "href": "https://sports.yahoo.com/nfl/players/29369",
+                "title": "Dak Prescott",
+                "attributes": {
+                  "class": "Nowrap name F-link playernote",
+                  "data-ys-playerid": "29369",
+                  "data-ys-playernote-view": "notes",
+                  "id": "playernote-29369",
+                  "title": "Dak Prescott"
+                }
+              },
+              {
+                "text": "Player Note",
+                "href": "https://sports.yahoo.com/nfl/players/29369/news",
+                "title": "",
+                "attributes": {
+                  "class": "playernote Ta-start yfa-icon Z-1 yfa-rapid-beacon yfa-rapid-module-playernotes playernote-recent",
+                  "data-ys-playerid": "29369",
+                  "data-ys-playernote-view": "notes",
+                  "id": "playernote-29369",
+                  "aria-label": "Open player notes for Dak Prescott"
+                }
+              },
+              {
+                "text": "Sun 4:25 pm vs",
+                "href": "https://sports.yahoo.com/nfl/washington-commanders-dallas-cowboys-20260920006/",
+                "title": "",
+                "attributes": {
+                  "class": "F-reset D-if Ai-c"
+                }
+              },
+              {
+                "text": "Was",
+                "href": "https://football.fantasysports.yahoo.com/f1/100/pointsagainst?pos=QB&ntid=28",
+                "title": "WAS gives up the 8th most fantasy points to the QB position.",
+                "attributes": {
+                  "class": "Inline F-rank-good",
+                  "title": "WAS gives up the 8th most fantasy points to the QB position."
+                }
+              }
+            ],
+            "controls": [
+              {
+                "tag": "span",
+                "type": "",
+                "name": "",
+                "text": "QB",
+                "value": "",
+                "disabled": false,
+                "attributes": {
+                  "class": "pos-label Btn-primary Btn-short Miwpx-40 Block Nowrap Btn-primary Btn-short Block Miwpx-40",
+                  "data-pos": "QB",
+                  "role": "button",
+                  "aria-label": "Click here to edit QB Dak Prescott"
+                },
+                "options": []
+              }
+            ],
+            "attributes": {
+              "class": "First editable",
+              "id": "yui_3_18_1_2_1789511811914_170",
+              "data-pos": "QB",
+              "data-swap-groups": "ALL BN-QB",
+              "data-swap-targets": "POS-QB"
+            }
+          },
+          {
+            "cells": [
+              "BN",
+              "QBBN",
+              "Jared GoffPlayer Note\nDet - QB\nThu 8:15 pm @ Buf",
+              "6",
+              "–",
+              "16.74",
+              "29%",
+              "86%",
+              "-",
+              "-",
+              "-",
+              "-",
+              "-",
+              "-",
+              "-",
+              "-",
+              "-",
+              "-",
+              "-",
+              "-",
+              "-",
+              ""
+            ],
+            "links": [
+              {
+                "text": "Jared Goff",
+                "href": "https://sports.yahoo.com/nfl/players/29235",
+                "title": "Jared Goff",
+                "attributes": {
+                  "class": "Nowrap name F-link playernote",
+                  "data-ys-playerid": "29235",
+                  "data-ys-playernote-view": "notes",
+                  "id": "playernote-29235",
+                  "title": "Jared Goff"
+                }
+              },
+              {
+                "text": "Player Note",
+                "href": "https://sports.yahoo.com/nfl/players/29235/news",
+                "title": "",
+                "attributes": {
+                  "class": "playernote Ta-start yfa-icon Z-1 yfa-rapid-beacon yfa-rapid-module-playernotes playernote-recent",
+                  "data-ys-playerid": "29235",
+                  "data-ys-playernote-view": "notes",
+                  "id": "playernote-29235",
+                  "aria-label": "Open player notes for Jared Goff"
+                }
+              },
+              {
+                "text": "Thu 8:15 pm @",
+                "href": "https://sports.yahoo.com/nfl/detroit-lions-buffalo-bills-20260917002/",
+                "title": "",
+                "attributes": {
+                  "class": "F-reset D-if Ai-c"
+                }
+              },
+              {
+                "text": "Buf",
+                "href": "https://football.fantasysports.yahoo.com/f1/100/pointsagainst?pos=QB&ntid=2",
+                "title": "BUF gives up the 17th fewest fantasy points to the QB position.",
+                "attributes": {
+                  "class": "Inline F-rank-neutral",
+                  "title": "BUF gives up the 17th fewest fantasy points to the QB position."
+                }
+              }
+            ],
+            "controls": [
+              {
+                "tag": "span",
+                "type": "",
+                "name": "",
+                "text": "BN",
+                "value": "",
+                "disabled": false,
+                "attributes": {
+                  "class": "pos-label Btn-primary Btn-short Miwpx-40 Block Nowrap Btn-primary Btn-short Block Miwpx-40",
+                  "data-pos": "BN",
+                  "role": "button",
+                  "aria-label": "Click here to edit BN Jared Goff"
+                },
+                "options": []
+              }
+            ],
+            "attributes": {
+              "class": "Last bench bench editable",
+              "id": "yui_3_18_1_2_1789511811914_176",
+              "data-pos": "BN",
+              "data-swap-groups": "POS-QB",
+              "data-swap-targets": "BN-QB"
+            }
+          },
+          {
+            "cells": [
+              "BN",
+              "BN",
+              "(Empty)",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            "links": [],
+            "controls": [],
+            "attributes": {
+              "class": "bench bench empty-bench editable",
+              "id": "yui_3_18_1_2_1789511811914_165",
+              "data-pos": "BN",
+              "data-swap-groups": "",
+              "data-swap-targets": "ALL"
+            }
+          }
+        ]
+      },
+      {
+        "caption": "Example Team's Kickers roster for week 2.",
+        "attributes": {},
+        "headers": [
+          "Pos",
+          "Edit",
+          "Kickers",
+          "Bye",
+          "Fan Pts",
+          "Proj Pts",
+          "% Start",
+          "% Ros",
+          "0‑19",
+          "20‑29",
+          "30‑39",
+          "40‑49",
+          "50+",
+          "Made",
+          ""
+        ],
+        "rows": [
+          {
+            "cells": [
+              "K",
+              "KBN",
+              "Cairo SantosNew Player Note\nChi - K\nSun 1:00 pm vs Min",
+              "10",
+              "–",
+              "7.73",
+              "46%",
+              "48%",
+              "-",
+              "-",
+              "-",
+              "-",
+              "-",
+              "-",
+              ""
+            ],
+            "links": [
+              {
+                "text": "Cairo Santos",
+                "href": "https://sports.yahoo.com/nfl/players/28227",
+                "title": "Cairo Santos",
+                "attributes": {
+                  "class": "Nowrap name F-link playernote",
+                  "data-ys-playerid": "28227",
+                  "data-ys-playernote-view": "notes",
+                  "id": "playernote-28227",
+                  "title": "Cairo Santos"
+                }
+              },
+              {
+                "text": "New Player Note",
+                "href": "https://sports.yahoo.com/nfl/players/28227/news",
+                "title": "",
+                "attributes": {
+                  "class": "playernote Ta-start yfa-icon Z-1 yfa-rapid-beacon yfa-rapid-module-playernotes playernote-new",
+                  "data-ys-playerid": "28227",
+                  "data-ys-playernote-view": "notes",
+                  "id": "playernote-28227",
+                  "aria-label": "Open player notes for Cairo Santos"
+                }
+              },
+              {
+                "text": "Sun 1:00 pm vs",
+                "href": "https://sports.yahoo.com/nfl/minnesota-vikings-chicago-bears-20260920003/",
+                "title": "",
+                "attributes": {
+                  "class": "F-reset D-if Ai-c"
+                }
+              },
+              {
+                "text": "Min",
+                "href": "https://football.fantasysports.yahoo.com/f1/100/pointsagainst?pos=K&ntid=16",
+                "title": "MIN gives up the 5th most fantasy points to the K position.",
+                "attributes": {
+                  "class": "Inline F-rank-good",
+                  "title": "MIN gives up the 5th most fantasy points to the K position."
+                }
+              }
+            ],
+            "controls": [
+              {
+                "tag": "span",
+                "type": "",
+                "name": "",
+                "text": "K",
+                "value": "",
+                "disabled": false,
+                "attributes": {
+                  "class": "pos-label Btn-primary Btn-short Miwpx-40 Block Nowrap Btn-primary Btn-short Block Miwpx-40",
+                  "data-pos": "K",
+                  "role": "button",
+                  "aria-label": "Click here to edit K Cairo Santos"
+                },
+                "options": []
+              }
+            ],
+            "attributes": {
+              "class": "First Last editable",
+              "id": "yui_3_18_1_2_1789511811914_246",
+              "data-pos": "K",
+              "data-swap-groups": "ALL BN-K",
+              "data-swap-targets": "POS-K"
+            }
+          },
+          {
+            "cells": [
+              "BN",
+              "BN",
+              "(Empty)",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            "links": [],
+            "controls": [],
+            "attributes": {
+              "class": "bench bench empty-bench editable",
+              "id": "yui_3_18_1_2_1789511811914_241",
+              "data-pos": "BN",
+              "data-swap-groups": "",
+              "data-swap-targets": "ALL"
+            }
+          }
+        ]
+      },
+      {
+        "caption": "Example Team's Defense/Special Teams roster for week 2.",
+        "attributes": {},
+        "headers": [
+          "Pos",
+          "Edit",
+          "Defense/Special Teams",
+          "Bye",
+          "Fan Pts",
+          "Proj Pts",
+          "% Start",
+          "% Ros",
+          "Pts vs.*",
+          "Sack",
+          "Safe",
+          "Int",
+          "Fum Rec",
+          "TD",
+          "Blk Kick",
+          "TD",
+          ""
+        ],
+        "rows": [
+          {
+            "cells": [
+              "DEF",
+              "DEFBN",
+              "TexansNo new player Notes\nHou - DEF\nSun 1:00 pm vs Cin",
+              "8",
+              "–",
+              "6.11",
+              "85%",
+              "98%",
+              "-",
+              "-",
+              "-",
+              "-",
+              "-",
+              "-",
+              "-",
+              "-",
+              ""
+            ],
+            "links": [
+              {
+                "text": "Texans",
+                "href": "https://sports.yahoo.com/nfl/teams/houston/",
+                "title": "Texans",
+                "attributes": {
+                  "class": "Nowrap name F-link playernote",
+                  "data-ys-playerid": "100034",
+                  "data-ys-playernote-view": "notes",
+                  "id": "playernote-100034",
+                  "title": "Texans"
+                }
+              },
+              {
+                "text": "No new player Notes",
+                "href": "https://sports.yahoo.com/nfl/teams/houston/",
+                "title": "",
+                "attributes": {
+                  "class": "playernote Ta-start yfa-icon Z-1 yfa-rapid-beacon yfa-rapid-module-playernotes playernote-old",
+                  "data-ys-playerid": "100034",
+                  "data-ys-playernote-view": "notes",
+                  "id": "playernote-100034",
+                  "aria-label": "Open player notes for Texans"
+                }
+              },
+              {
+                "text": "Sun 1:00 pm vs",
+                "href": "https://sports.yahoo.com/nfl/cincinnati-bengals-houston-texans-20260920034/",
+                "title": "",
+                "attributes": {
+                  "class": "F-reset D-if Ai-c"
+                }
+              },
+              {
+                "text": "Cin",
+                "href": "https://football.fantasysports.yahoo.com/f1/100/pointsagainst?pos=DEF&ntid=4",
+                "title": "CIN gives up the 10th most fantasy points to the DEF position.",
+                "attributes": {
+                  "class": "Inline F-rank-good",
+                  "title": "CIN gives up the 10th most fantasy points to the DEF position."
+                }
+              }
+            ],
+            "controls": [
+              {
+                "tag": "span",
+                "type": "",
+                "name": "",
+                "text": "DEF",
+                "value": "",
+                "disabled": false,
+                "attributes": {
+                  "class": "pos-label Btn-primary Btn-short Miwpx-40 Block Nowrap Btn-primary Btn-short Block Miwpx-40",
+                  "data-pos": "DEF",
+                  "role": "button",
+                  "aria-label": "Click here to edit DEF Texans"
+                },
+                "options": []
+              }
+            ],
+            "attributes": {
+              "class": "First Last editable",
+              "id": "yui_3_18_1_2_1789511811914_316",
+              "data-pos": "DEF",
+              "data-swap-groups": "ALL BN-DEF",
+              "data-swap-targets": "POS-DEF"
+            }
+          },
+          {
+            "cells": [
+              "BN",
+              "BN",
+              "(Empty)",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            "links": [],
+            "controls": [],
+            "attributes": {
+              "class": "bench bench empty-bench editable",
+              "id": "yui_3_18_1_2_1789511811914_311",
+              "data-pos": "BN",
+              "data-swap-groups": "",
+              "data-swap-targets": "ALL"
+            }
+          }
+        ]
+      }
+    ],
+    "forms": []
+  }
+}

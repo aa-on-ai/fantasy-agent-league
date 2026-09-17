@@ -1,0 +1,21 @@
+import {mkdir,writeFile} from 'node:fs/promises';
+import {resolve,join} from 'node:path';
+import {withOwnedBrowser,OWNED_BROWSER_PROFILE} from '../dist/src/platforms/yahoo/owned-browser.js';
+import {collectOwnedAcquisitions} from '../dist/src/platforms/yahoo/owned-acquisition-collector.js';
+import {collectOwnedClaims} from '../dist/src/platforms/yahoo/owned-claims.js';
+import {readOwnedRules} from '../dist/src/platforms/yahoo/owned-sources.js';
+import {FileLedger} from '../dist/src/execution/file-ledger.js';
+import {readStop} from '../dist/src/runtime/native-read-proof.js';
+const phase=process.argv[2],scope=process.argv[3]??'sandbox';
+if(!['waivers','free_agents'].includes(phase)||!['sandbox','production'].includes(scope))throw Error('explicit_acquisition_assessment_required');
+const root=resolve(new URL('..',import.meta.url).pathname),base=join(root,'runtime/private');
+const binding={leagueId:scope==='sandbox'?'1659459':'425299',teamId:scope==='sandbox'?'1':'11',teamName:scope==='sandbox'?'Stiff Arm ae':'Artificial Grass Intelligence',profileId:'fantasy-agent-1-owned-chrome',period:'2',season:2026,maxAgeMs:900000};
+const dir=join(base,'owned-acquisition-assessments',new Date().toISOString().replaceAll(':','-'));await mkdir(dir,{recursive:true,mode:0o700});
+let rules,observations=0;const closes=Date.now()+12*60000;
+const checkpoint=async()=>{if(await readStop(join(base,'emergency-stop'))!=='clear')throw Error('emergency_stop');if(Date.now()>=closes)throw Error('assessment_window_closed');};
+const record=async o=>{await writeFile(join(dir,o.observationId+'.json'),JSON.stringify(o)+'\n',{mode:0o600,flag:'wx'});if(new URL(o.url).pathname.endsWith('/settings'))rules=readOwnedRules(o,binding);observations++;};
+await new FileLedger(join(base,'browser-ledger')).exclusive('yahoo-owned-browser:'+binding.profileId,()=>withOwnedBrowser({profilePath:OWNED_BROWSER_PROFILE},async page=>{
+ const result=await collectOwnedAcquisitions(page,binding,phase,record,checkpoint,{collectPendingClaims:async()=>{if(!rules)throw Error('rules_unobserved');return collectOwnedClaims(page,binding,rules,record,checkpoint);}});
+ await writeFile(join(dir,'assessment.json'),JSON.stringify(result)+'\n',{mode:0o600,flag:'wx'});
+ console.log(JSON.stringify({phase,scope,readiness:result.assessment.readiness,gaps:result.assessment.gaps,roster:result.assessment.snapshot?.roster.length,available:result.assessment.snapshot?.available.length,sources:result.assessment.sources.length,claims:result.pendingClaimsEvidence?.claims,coverage:result.coverage,observations,dir}));
+}));

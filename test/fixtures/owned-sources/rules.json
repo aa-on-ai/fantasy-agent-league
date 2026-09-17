@@ -1,0 +1,508 @@
+{
+  "observationId": "68679453b607781bc7e4c043eacd92341ae7ba608f10c511c544d14dd2cebd78",
+  "profileId": "fixture-profile",
+  "url": "https://football.fantasysports.yahoo.com/f1/100/settings",
+  "capturedAt": "2026-09-15T22:37:55.119Z",
+  "dom": {
+    "title": "Scoring & Settings | Fantasy Football | Yahoo! Sports",
+    "text": "Scoring & Settings",
+    "headings": [],
+    "links": [
+      {
+        "text": "My Team",
+        "href": "https://football.fantasysports.yahoo.com/f1/100/1",
+        "title": "",
+        "attributes": {
+          "class": "_yb_p1y64c    rapid-noclick-resp",
+          "data-ylk": "cpos:3;slk:My Team;elm:navcat;sec:ybar;subsec:navrail;pkgt:mid;itc:0;",
+          "data-yga": "{\"yLinkText\":\"My Team\",\"yLinkElement\":\"navcat\",\"ySection\":\"primary-nav\",\"ySubModuleName\":\"top-bar\"}"
+        }
+      }
+    ],
+    "controls": [],
+    "tables": [
+      {
+        "caption": "",
+        "attributes": {},
+        "headers": [
+          "Setting",
+          "Value\nEdit"
+        ],
+        "rows": [
+          {
+            "cells": [
+              "League ID#:",
+              "100"
+            ],
+            "links": [],
+            "controls": [],
+            "attributes": {}
+          },
+          {
+            "cells": [
+              "Waiver Time:",
+              "2 days"
+            ],
+            "links": [],
+            "controls": [],
+            "attributes": {
+              "class": "row2"
+            }
+          },
+          {
+            "cells": [
+              "Waiver Type:",
+              "Continual rolling list"
+            ],
+            "links": [],
+            "controls": [],
+            "attributes": {
+              "class": "row1"
+            }
+          },
+          {
+            "cells": [
+              "Weekly Waivers",
+              "Game Time - Tuesday"
+            ],
+            "links": [],
+            "controls": [],
+            "attributes": {
+              "class": "row2"
+            }
+          },
+          {
+            "cells": [
+              "Roster Positions:",
+              "QB, K, DEF, BN"
+            ],
+            "links": [],
+            "controls": [],
+            "attributes": {
+              "class": "row2"
+            }
+          },
+          {
+            "cells": [
+              "Lock Benched Players:",
+              "No"
+            ],
+            "links": [],
+            "controls": [],
+            "attributes": {
+              "class": "row1"
+            }
+          }
+        ]
+      },
+      {
+        "caption": "",
+        "attributes": {},
+        "headers": [
+          "Defense/Special Teams",
+          "League Value",
+          "Yahoo Default Value"
+        ],
+        "rows": [
+          {
+            "cells": [
+              "Passing Yards",
+              "25 yards per point",
+              ""
+            ],
+            "links": [],
+            "controls": [],
+            "attributes": {
+              "class": "row2"
+            }
+          },
+          {
+            "cells": [
+              "Passing Touchdowns",
+              "4",
+              ""
+            ],
+            "links": [],
+            "controls": [],
+            "attributes": {
+              "class": "row1"
+            }
+          },
+          {
+            "cells": [
+              "Interceptions",
+              "-1",
+              ""
+            ],
+            "links": [],
+            "controls": [],
+            "attributes": {
+              "class": "row2"
+            }
+          },
+          {
+            "cells": [
+              "Rushing Yards",
+              "10 yards per point",
+              ""
+            ],
+            "links": [],
+            "controls": [],
+            "attributes": {
+              "class": "row1"
+            }
+          },
+          {
+            "cells": [
+              "Rushing Touchdowns",
+              "6",
+              ""
+            ],
+            "links": [],
+            "controls": [],
+            "attributes": {
+              "class": "row2"
+            }
+          },
+          {
+            "cells": [
+              "Receptions",
+              "0.5",
+              ""
+            ],
+            "links": [],
+            "controls": [],
+            "attributes": {
+              "class": "row1"
+            }
+          },
+          {
+            "cells": [
+              "Receiving Yards",
+              "10 yards per point",
+              ""
+            ],
+            "links": [],
+            "controls": [],
+            "attributes": {
+              "class": "row2"
+            }
+          },
+          {
+            "cells": [
+              "Receiving Touchdowns",
+              "6",
+              ""
+            ],
+            "links": [],
+            "controls": [],
+            "attributes": {
+              "class": "row1"
+            }
+          },
+          {
+            "cells": [
+              "Return Touchdowns",
+              "6",
+              ""
+            ],
+            "links": [],
+            "controls": [],
+            "attributes": {
+              "class": "row2"
+            }
+          },
+          {
+            "cells": [
+              "2-Point Conversions",
+              "2",
+              ""
+            ],
+            "links": [],
+            "controls": [],
+            "attributes": {
+              "class": "row1"
+            }
+          },
+          {
+            "cells": [
+              "Fumbles Lost",
+              "-2",
+              ""
+            ],
+            "links": [],
+            "controls": [],
+            "attributes": {
+              "class": "row2"
+            }
+          },
+          {
+            "cells": [
+              "Offensive Fumble Return TD",
+              "6",
+              ""
+            ],
+            "links": [],
+            "controls": [],
+            "attributes": {
+              "class": "row1"
+            }
+          },
+          {
+            "cells": [
+              "Field Goals 0-19 Yards",
+              "3",
+              ""
+            ],
+            "links": [],
+            "controls": [],
+            "attributes": {
+              "class": "row2"
+            }
+          },
+          {
+            "cells": [
+              "Field Goals 20-29 Yards",
+              "3",
+              ""
+            ],
+            "links": [],
+            "controls": [],
+            "attributes": {
+              "class": "row1"
+            }
+          },
+          {
+            "cells": [
+              "Field Goals 30-39 Yards",
+              "3",
+              ""
+            ],
+            "links": [],
+            "controls": [],
+            "attributes": {
+              "class": "row2"
+            }
+          },
+          {
+            "cells": [
+              "Field Goals 40-49 Yards",
+              "4",
+              ""
+            ],
+            "links": [],
+            "controls": [],
+            "attributes": {
+              "class": "row1"
+            }
+          },
+          {
+            "cells": [
+              "Field Goals 50+ Yards",
+              "5",
+              ""
+            ],
+            "links": [],
+            "controls": [],
+            "attributes": {
+              "class": "row2"
+            }
+          },
+          {
+            "cells": [
+              "Point After Attempt Made",
+              "1",
+              ""
+            ],
+            "links": [],
+            "controls": [],
+            "attributes": {
+              "class": "row1"
+            }
+          },
+          {
+            "cells": [
+              "Sack",
+              "1",
+              ""
+            ],
+            "links": [],
+            "controls": [],
+            "attributes": {
+              "class": "row2"
+            }
+          },
+          {
+            "cells": [
+              "Interception",
+              "2",
+              ""
+            ],
+            "links": [],
+            "controls": [],
+            "attributes": {
+              "class": "row1"
+            }
+          },
+          {
+            "cells": [
+              "Fumble Recovery",
+              "2",
+              ""
+            ],
+            "links": [],
+            "controls": [],
+            "attributes": {
+              "class": "row2"
+            }
+          },
+          {
+            "cells": [
+              "Touchdown",
+              "6",
+              ""
+            ],
+            "links": [],
+            "controls": [],
+            "attributes": {
+              "class": "row1"
+            }
+          },
+          {
+            "cells": [
+              "Safety",
+              "2",
+              ""
+            ],
+            "links": [],
+            "controls": [],
+            "attributes": {
+              "class": "row2"
+            }
+          },
+          {
+            "cells": [
+              "Block Kick",
+              "2",
+              ""
+            ],
+            "links": [],
+            "controls": [],
+            "attributes": {
+              "class": "row1"
+            }
+          },
+          {
+            "cells": [
+              "Kickoff and Punt Return Touchdowns",
+              "6",
+              ""
+            ],
+            "links": [],
+            "controls": [],
+            "attributes": {
+              "class": "row2"
+            }
+          },
+          {
+            "cells": [
+              "Points Allowed 0 points",
+              "10",
+              ""
+            ],
+            "links": [],
+            "controls": [],
+            "attributes": {
+              "class": "row1"
+            }
+          },
+          {
+            "cells": [
+              "Points Allowed 1-6 points",
+              "7",
+              ""
+            ],
+            "links": [],
+            "controls": [],
+            "attributes": {
+              "class": "row2"
+            }
+          },
+          {
+            "cells": [
+              "Points Allowed 7-13 points",
+              "4",
+              ""
+            ],
+            "links": [],
+            "controls": [],
+            "attributes": {
+              "class": "row1"
+            }
+          },
+          {
+            "cells": [
+              "Points Allowed 14-20 points",
+              "1",
+              ""
+            ],
+            "links": [],
+            "controls": [],
+            "attributes": {
+              "class": "row2"
+            }
+          },
+          {
+            "cells": [
+              "Points Allowed 21-27 points",
+              "0",
+              ""
+            ],
+            "links": [],
+            "controls": [],
+            "attributes": {
+              "class": "row1"
+            }
+          },
+          {
+            "cells": [
+              "Points Allowed 28-34 points",
+              "-1",
+              ""
+            ],
+            "links": [],
+            "controls": [],
+            "attributes": {
+              "class": "row2"
+            }
+          },
+          {
+            "cells": [
+              "Points Allowed 35+ points",
+              "-4",
+              ""
+            ],
+            "links": [],
+            "controls": [],
+            "attributes": {
+              "class": "row1"
+            }
+          },
+          {
+            "cells": [
+              "Extra Point Returned",
+              "2",
+              ""
+            ],
+            "links": [],
+            "controls": [],
+            "attributes": {
+              "class": "row2"
+            }
+          }
+        ]
+      }
+    ],
+    "forms": []
+  }
+}

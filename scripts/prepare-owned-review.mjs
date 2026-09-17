@@ -1,0 +1,18 @@
+import {readFile,writeFile,mkdir} from 'node:fs/promises';
+import {resolve,join} from 'node:path';
+import {digest} from '../dist/src/manager/season.js';
+import {managerContextHash,validateManagerContext,codexDecisionInstructions} from '../dist/src/manager/codex-run.js';
+import {loadManagerIdentity} from '../dist/src/manager/identity.js';
+import {buildManagerContinuityContext,loadSeasonMemory} from '../dist/src/manager/season-memory.js';
+const root=resolve(new URL('..',import.meta.url).pathname),path=resolve(process.argv[2]);
+if(!path.startsWith(join(root,'runtime/private/owned-assessments/production-')))throw Error('invalid_assessment_path');
+const a=JSON.parse(await readFile(path,'utf8'));if(!a.readiness.lineup||a.gaps.length||!a.snapshot)throw Error('incomplete_assessment');
+const directory=join(root,'runtime/private/participant'),identity=await loadManagerIdentity(directory);
+const [strategyText,contractText]=await Promise.all([readFile(join(root,'agents/steady-manager.md'),'utf8'),readFile(join(root,'agents/manager-contract.md'),'utf8')]);
+const now=new Date(),end=new Date(now.getTime()+5*60000).toISOString(),id='lineup-review-'+now.toISOString().replaceAll(':','-');
+const body={schemaVersion:1,runId:id,phase:'lineup',strategy:'steady',strategyText,contractText,snapshot:a.snapshot,sources:a.sources,policy:{tradesEnabled:false,allowedActions:['set_lineup'],windows:[{kind:'set_lineup',opensAt:now.toISOString(),closesAt:end}]},continuity:buildManagerContinuityContext(identity,await loadSeasonMemory(directory,identity))};
+const context={...body,contextHash:managerContextHash(body)},binding={leagueId:'425299',teamId:'11',maxAgeMs:900000,strategyHash:digest(strategyText),contractHash:digest(contractText)};
+validateManagerContext(context,binding,now);
+const dir=join(root,'runtime/private/owned-reviews',id);await mkdir(dir,{recursive:true,mode:0o700});
+await writeFile(join(dir,'request.json'),JSON.stringify({instructions:codexDecisionInstructions(context),context,binding,mode:'review',assessmentPath:path})+'\n',{mode:0o600,flag:'wx'});
+console.log(JSON.stringify({requestPath:join(dir,'request.json'),runId:id,contextHash:context.contextHash,roster:context.snapshot.roster.map(p=>({id:p.id,slot:p.slot,proj:p.projectedPoints,status:p.status})),expiresAt:end}));

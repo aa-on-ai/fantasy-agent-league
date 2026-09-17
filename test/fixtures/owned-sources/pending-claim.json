@@ -1,0 +1,362 @@
+{
+  "provenance": "Sanitized Sep16 04:20 MyTeam and 04:21 claim detail DOM; claim_id recovered from original observed anchor, pending badge count inspected live at 04:25. Replay only, not a production capability proof.",
+  "queue": {
+    "observationId": "8391410b-3974-4117-bff2-5429cefc93fc",
+    "capturedAt": "2026-09-16T04:20:32.388Z",
+    "profileId": "fantasy-agent-1-owned-chrome",
+    "url": "https://football.fantasysports.yahoo.com/f1/1659459/1",
+    "dom": {
+      "readyState": "complete",
+      "title": "Sandbox claim fixture",
+      "text": "Pending Transactions\nWaiver 1 (Sep 16): Add Brock Purdy, Drop Jared Goff",
+      "headings": [],
+      "links": [
+        {
+          "text": "My Team",
+          "href": "https://football.fantasysports.yahoo.com/f1/1659459/1",
+          "title": "",
+          "attributes": {
+            "class": "_yb_p1y64c  _yb_8737ki  rapid-noclick-resp"
+          }
+        },
+        {
+          "text": "\ue213\nWaiver 1 (Sep 16): Add Brock Purdy, Drop Jared Goff\nView Details\ue005",
+          "href": "https://football.fantasysports.yahoo.com/f1/1659459/1/viewwaiver?claim_id=1_34218_29235",
+          "title": "",
+          "attributes": {
+            "class": "D-b Relative Td-n Ov-h Mx-lg Py-sm Bdrbot yfa-rapid-beacon"
+          }
+        }
+      ],
+      "pendingTransactionLinks": [
+        {
+          "text": "\ue213\nWaiver 1 (Sep 16): Add Brock Purdy, Drop Jared Goff\nView Details\ue005",
+          "href": "https://football.fantasysports.yahoo.com/f1/1659459/1/viewwaiver?claim_id=1_34218_29235",
+          "title": "",
+          "attributes": {
+            "class": "D-b Relative Td-n Ov-h Mx-lg Py-sm Bdrbot yfa-rapid-beacon"
+          }
+        }
+      ],
+      "pendingTransactionCount": 1,
+      "tables": [
+        {
+          "caption": "Example Sandbox Team's Offense roster for week 2.",
+          "headers": [],
+          "rows": [],
+          "attributes": {}
+        }
+      ],
+      "forms": [],
+      "controls": []
+    }
+  },
+  "detail": {
+    "observationId": "80022205-f648-46d7-8b44-0d9a60199fcd",
+    "capturedAt": "2026-09-16T04:21:50.259Z",
+    "profileId": "fantasy-agent-1-owned-chrome",
+    "url": "https://football.fantasysports.yahoo.com/f1/1659459/1/viewwaiver?claim_id=1_34218_29235",
+    "dom": {
+      "readyState": "complete",
+      "claimMarkerCount": 1,
+      "title": "Sandbox claim detail fixture",
+      "text": "If successful, this waiver claim will be reflected in your lineup for Week 2 on Wednesday, Sep 16.",
+      "headings": [
+        "Cancel Waiver",
+        "Add Player",
+        "Drop Player"
+      ],
+      "tables": [
+        {
+          "caption": "",
+          "headers": [
+            "Add",
+            "Offense",
+            "Opp",
+            "Status",
+            "Bye",
+            "Fan Pts",
+            "Pre-Season",
+            "Actual",
+            "% Ros",
+            "Yds",
+            "TD",
+            "Int",
+            "Att",
+            "Yds",
+            "TD",
+            "Tgt",
+            "Rec",
+            "Yds",
+            "TD",
+            "TD",
+            "2PT",
+            "Lost",
+            ""
+          ],
+          "attributes": {
+            "id": "statTable-add",
+            "class": "Table Ta-start Fz-xs Table-mid Table-px-xs"
+          },
+          "rows": [
+            {
+              "cells": [
+                "\ue035",
+                "Brock PurdyVideo ForecastPlayer Note\nSF - QB\nSun 4:25 pm vs\u00a0Mia",
+                "Mia",
+                "Sun\n4:25 pm",
+                "8",
+                "\u2013",
+                "101",
+                "-",
+                "90%",
+                "-",
+                "-",
+                "-",
+                "-",
+                "-",
+                "-",
+                "-",
+                "-",
+                "-",
+                "-",
+                "-",
+                "-",
+                "-",
+                ""
+              ],
+              "links": [
+                {
+                  "text": "Brock Purdy",
+                  "href": "https://sports.yahoo.com/nfl/players/34218",
+                  "title": "Brock Purdy",
+                  "attributes": {
+                    "class": "Nowrap name F-link playernote",
+                    "data-ys-playerid": "34218",
+                    "data-ys-playernote-view": "notes",
+                    "id": "playernote-34218",
+                    "title": "Brock Purdy"
+                  }
+                },
+                {
+                  "text": "Video Forecast",
+                  "href": "https://football.fantasysports.yahoo.com/f1/1659459/1/viewwaiver",
+                  "title": "",
+                  "attributes": {
+                    "class": "playernote Ta-start yfa-icon yfa-video-forecast video-new Mend-xs yfa-rapid-beacon yfa-rapid-module-playernotes",
+                    "data-ys-playerid": "34218",
+                    "data-ys-playernote-view": "overview",
+                    "id": "playernote-34218"
+                  }
+                },
+                {
+                  "text": "Player Note",
+                  "href": "https://sports.yahoo.com/nfl/players/34218/news",
+                  "title": "",
+                  "attributes": {
+                    "class": "playernote Ta-start yfa-icon Z-1 yfa-rapid-beacon yfa-rapid-module-playernotes playernote-recent",
+                    "data-ys-playerid": "34218",
+                    "data-ys-playernote-view": "notes",
+                    "id": "playernote-34218",
+                    "aria-label": "Open player notes for Brock Purdy"
+                  }
+                },
+                {
+                  "text": "Sun 4:25 pm vs",
+                  "href": "https://sports.yahoo.com/nfl/miami-dolphins-san-francisco-49ers-20260920025/",
+                  "title": "",
+                  "attributes": {
+                    "class": "F-reset D-if Ai-c"
+                  }
+                },
+                {
+                  "text": "Mia",
+                  "href": "https://football.fantasysports.yahoo.com/f1/1659459/pointsagainst?pos=QB",
+                  "title": "MIA gives up the 15th fewest fantasy points to the QB position.",
+                  "attributes": {
+                    "class": "Inline F-rank-neutral",
+                    "title": "MIA gives up the 15th fewest fantasy points to the QB position."
+                  }
+                },
+                {
+                  "text": "Sun\n4:25 pm",
+                  "href": "https://sports.yahoo.com/nfl/miami-dolphins-san-francisco-49ers-20260920025/",
+                  "title": "",
+                  "attributes": {}
+                }
+              ],
+              "controls": [],
+              "attributes": {
+                "class": "First Last"
+              }
+            }
+          ]
+        },
+        {
+          "caption": "",
+          "headers": [
+            "Drop",
+            "Offense",
+            "Opp",
+            "Status",
+            "Bye",
+            "Fan Pts",
+            "Pre-Season",
+            "Actual",
+            "% Ros",
+            "Yds",
+            "TD",
+            "Int",
+            "Att",
+            "Yds",
+            "TD",
+            "Tgt",
+            "Rec",
+            "Yds",
+            "TD",
+            "TD",
+            "2PT",
+            "Lost",
+            ""
+          ],
+          "attributes": {
+            "id": "statTable-add",
+            "class": "Table Ta-start Fz-xs Table-mid Table-px-xs"
+          },
+          "rows": [
+            {
+              "cells": [
+                "\ue033",
+                "Jared GoffPlayer Note\nDet - QB\nThu 8:15 pm @\u00a0Buf",
+                "@Buf",
+                "Thu\n8:15 pm",
+                "6",
+                "\u2013",
+                "117",
+                "-",
+                "86%",
+                "-",
+                "-",
+                "-",
+                "-",
+                "-",
+                "-",
+                "-",
+                "-",
+                "-",
+                "-",
+                "-",
+                "-",
+                "-",
+                ""
+              ],
+              "links": [
+                {
+                  "text": "Jared Goff",
+                  "href": "https://sports.yahoo.com/nfl/players/29235",
+                  "title": "Jared Goff",
+                  "attributes": {
+                    "class": "Nowrap name F-link playernote",
+                    "data-ys-playerid": "29235",
+                    "data-ys-playernote-view": "notes",
+                    "id": "playernote-29235",
+                    "title": "Jared Goff"
+                  }
+                },
+                {
+                  "text": "Player Note",
+                  "href": "https://sports.yahoo.com/nfl/players/29235/news",
+                  "title": "",
+                  "attributes": {
+                    "class": "playernote Ta-start yfa-icon Z-1 yfa-rapid-beacon yfa-rapid-module-playernotes playernote-recent",
+                    "data-ys-playerid": "29235",
+                    "data-ys-playernote-view": "notes",
+                    "id": "playernote-29235",
+                    "aria-label": "Open player notes for Jared Goff"
+                  }
+                },
+                {
+                  "text": "Thu 8:15 pm @",
+                  "href": "https://sports.yahoo.com/nfl/detroit-lions-buffalo-bills-20260917002/",
+                  "title": "",
+                  "attributes": {
+                    "class": "F-reset D-if Ai-c"
+                  }
+                },
+                {
+                  "text": "Buf",
+                  "href": "https://football.fantasysports.yahoo.com/f1/1659459/pointsagainst?pos=QB",
+                  "title": "BUF gives up the 17th fewest fantasy points to the QB position.",
+                  "attributes": {
+                    "class": "Inline F-rank-neutral",
+                    "title": "BUF gives up the 17th fewest fantasy points to the QB position."
+                  }
+                },
+                {
+                  "text": "Thu\n8:15 pm",
+                  "href": "https://sports.yahoo.com/nfl/detroit-lions-buffalo-bills-20260917002/",
+                  "title": "",
+                  "attributes": {}
+                }
+              ],
+              "controls": [],
+              "attributes": {
+                "class": "First Last"
+              }
+            }
+          ]
+        }
+      ],
+      "links": [
+        {
+          "text": "My Team",
+          "href": "https://football.fantasysports.yahoo.com/f1/1659459/1",
+          "title": "",
+          "attributes": {
+            "class": "_yb_p1y64c  _yb_8737ki  rapid-noclick-resp"
+          }
+        }
+      ],
+      "controls": [],
+      "forms": [
+        {
+          "action": "https://football.fantasysports.yahoo.com/f1/1659459/1/editwaiver",
+          "method": "post",
+          "attributes": {
+            "id": "edit-waiver-form"
+          },
+          "controls": [
+            {
+              "tag": "input",
+              "type": "submit",
+              "name": "s",
+              "text": "",
+              "value": "Cancel Waiver",
+              "disabled": false,
+              "attributes": {
+                "type": "submit",
+                "name": "s",
+                "class": "Btn roster-save-btn Btn-primary  Mend-xl"
+              },
+              "options": []
+            }
+          ],
+          "numericFields": [
+            {
+              "name": "stage",
+              "value": "2"
+            },
+            {
+              "name": "apid",
+              "value": "34218"
+            },
+            {
+              "name": "dpid",
+              "value": "29235"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
