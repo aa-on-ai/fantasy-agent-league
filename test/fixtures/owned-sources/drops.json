@@ -1,0 +1,445 @@
+{
+  "observationId": "c54d24841b365d10a854526599f9e55cfdcfb8e4435a511595ac1f15bb232050",
+  "profileId": "fixture-profile",
+  "url": "https://football.fantasysports.yahoo.com/f1/100/1/dropplayer",
+  "capturedAt": "2026-09-15T22:38:00.414Z",
+  "dom": {
+    "title": "Fantasy Football | Yahoo! Sports",
+    "text": "Select a player to drop",
+    "headings": [],
+    "links": [
+      {
+        "text": "My Team",
+        "href": "https://football.fantasysports.yahoo.com/f1/100/1",
+        "title": "",
+        "attributes": {
+          "class": "_yb_p1y64c  _yb_8737ki  rapid-noclick-resp",
+          "data-ylk": "cpos:3;slk:My Team;elm:navcat;sec:ybar;subsec:navrail;pkgt:mid;itc:0;",
+          "data-yga": "{\"yLinkText\":\"My Team\",\"yLinkElement\":\"navcat\",\"ySection\":\"primary-nav\",\"ySubModuleName\":\"top-bar\"}"
+        }
+      }
+    ],
+    "controls": [],
+    "tables": [
+      {
+        "caption": "",
+        "attributes": {},
+        "headers": [
+          "Drop",
+          "Offense",
+          "Opp",
+          "Bye",
+          "Fan Pts",
+          "Pre-Season",
+          "Actual",
+          "% Ros",
+          "Yds",
+          "TD",
+          "Int",
+          "Att",
+          "Yds",
+          "TD",
+          "Tgt",
+          "Rec",
+          "Yds",
+          "TD",
+          "TD",
+          "2PT",
+          "Lost",
+          ""
+        ],
+        "rows": [
+          {
+            "cells": [
+              "—",
+              "Dak PrescottPlayer Note\nDal - QB\nSun 4:25 pm vs Was",
+              "Washington",
+              "14",
+              "–",
+              "83",
+              "-",
+              "97%",
+              "-",
+              "-",
+              "-",
+              "-",
+              "-",
+              "-",
+              "-",
+              "-",
+              "-",
+              "-",
+              "-",
+              "-",
+              "-",
+              ""
+            ],
+            "links": [
+              {
+                "text": "Dak Prescott",
+                "href": "https://sports.yahoo.com/nfl/players/29369",
+                "title": "Dak Prescott",
+                "attributes": {
+                  "class": "Nowrap name F-link playernote",
+                  "data-ys-playerid": "29369",
+                  "data-ys-playernote-view": "notes",
+                  "id": "playernote-29369",
+                  "title": "Dak Prescott"
+                }
+              },
+              {
+                "text": "Player Note",
+                "href": "https://sports.yahoo.com/nfl/players/29369/news",
+                "title": "",
+                "attributes": {
+                  "class": "playernote Ta-start yfa-icon Z-1 yfa-rapid-beacon yfa-rapid-module-playernotes playernote-recent",
+                  "data-ys-playerid": "29369",
+                  "data-ys-playernote-view": "notes",
+                  "id": "playernote-29369",
+                  "aria-label": "Open player notes for Dak Prescott"
+                }
+              },
+              {
+                "text": "Sun 4:25 pm vs",
+                "href": "https://sports.yahoo.com/nfl/washington-commanders-dallas-cowboys-20260920006/",
+                "title": "",
+                "attributes": {
+                  "class": "F-reset D-if Ai-c"
+                }
+              },
+              {
+                "text": "Was",
+                "href": "https://football.fantasysports.yahoo.com/f1/100/pointsagainst?pos=QB&ntid=28",
+                "title": "WAS gives up the 8th most fantasy points to the QB position.",
+                "attributes": {
+                  "class": "Inline F-rank-good",
+                  "title": "WAS gives up the 8th most fantasy points to the QB position."
+                }
+              }
+            ],
+            "controls": [
+              {
+                "tag": "button",
+                "type": "button",
+                "name": "",
+                "text": "—",
+                "value": "",
+                "disabled": false,
+                "attributes": {
+                  "data-check-box-value": "29369 ",
+                  "class": "add-drop-trigger-btn pos-label Btn-primary Inlineblock P-med Px-lg Lh-1",
+                  "title": "Click to drop this player"
+                },
+                "options": []
+              }
+            ],
+            "attributes": {
+              "class": "First"
+            }
+          },
+          {
+            "cells": [
+              "—",
+              "Jared GoffPlayer Note\nDet - QB\nThu 8:15 pm @ Buf",
+              "@Buffalo",
+              "6",
+              "–",
+              "117",
+              "-",
+              "86%",
+              "-",
+              "-",
+              "-",
+              "-",
+              "-",
+              "-",
+              "-",
+              "-",
+              "-",
+              "-",
+              "-",
+              "-",
+              "-",
+              ""
+            ],
+            "links": [
+              {
+                "text": "Jared Goff",
+                "href": "https://sports.yahoo.com/nfl/players/29235",
+                "title": "Jared Goff",
+                "attributes": {
+                  "class": "Nowrap name F-link playernote",
+                  "data-ys-playerid": "29235",
+                  "data-ys-playernote-view": "notes",
+                  "id": "playernote-29235",
+                  "title": "Jared Goff"
+                }
+              },
+              {
+                "text": "Player Note",
+                "href": "https://sports.yahoo.com/nfl/players/29235/news",
+                "title": "",
+                "attributes": {
+                  "class": "playernote Ta-start yfa-icon Z-1 yfa-rapid-beacon yfa-rapid-module-playernotes playernote-recent",
+                  "data-ys-playerid": "29235",
+                  "data-ys-playernote-view": "notes",
+                  "id": "playernote-29235",
+                  "aria-label": "Open player notes for Jared Goff"
+                }
+              },
+              {
+                "text": "Thu 8:15 pm @",
+                "href": "https://sports.yahoo.com/nfl/detroit-lions-buffalo-bills-20260917002/",
+                "title": "",
+                "attributes": {
+                  "class": "F-reset D-if Ai-c"
+                }
+              },
+              {
+                "text": "Buf",
+                "href": "https://football.fantasysports.yahoo.com/f1/100/pointsagainst?pos=QB&ntid=2",
+                "title": "BUF gives up the 17th fewest fantasy points to the QB position.",
+                "attributes": {
+                  "class": "Inline F-rank-neutral",
+                  "title": "BUF gives up the 17th fewest fantasy points to the QB position."
+                }
+              }
+            ],
+            "controls": [
+              {
+                "tag": "button",
+                "type": "button",
+                "name": "",
+                "text": "—",
+                "value": "",
+                "disabled": false,
+                "attributes": {
+                  "data-check-box-value": "29235 ",
+                  "class": "add-drop-trigger-btn pos-label Btn-primary Inlineblock P-med Px-lg Lh-1",
+                  "title": "Click to drop this player"
+                },
+                "options": []
+              }
+            ],
+            "attributes": {
+              "class": "Alt Last"
+            }
+          }
+        ]
+      },
+      {
+        "caption": "",
+        "attributes": {},
+        "headers": [
+          "Drop",
+          "Kickers",
+          "Opp",
+          "Bye",
+          "Fan Pts",
+          "Pre-Season",
+          "Actual",
+          "% Ros",
+          "0-19",
+          "20-29",
+          "30-39",
+          "40-49",
+          "50+",
+          "Made",
+          ""
+        ],
+        "rows": [
+          {
+            "cells": [
+              "—",
+              "Cairo SantosNew Player Note\nChi - K\nSun 1:00 pm vs Min",
+              "Minnesota",
+              "10",
+              "–",
+              "218",
+              "-",
+              "48%",
+              "-",
+              "-",
+              "-",
+              "-",
+              "-",
+              "-",
+              ""
+            ],
+            "links": [
+              {
+                "text": "Cairo Santos",
+                "href": "https://sports.yahoo.com/nfl/players/28227",
+                "title": "Cairo Santos",
+                "attributes": {
+                  "class": "Nowrap name F-link playernote",
+                  "data-ys-playerid": "28227",
+                  "data-ys-playernote-view": "notes",
+                  "id": "playernote-28227",
+                  "title": "Cairo Santos"
+                }
+              },
+              {
+                "text": "New Player Note",
+                "href": "https://sports.yahoo.com/nfl/players/28227/news",
+                "title": "",
+                "attributes": {
+                  "class": "playernote Ta-start yfa-icon Z-1 yfa-rapid-beacon yfa-rapid-module-playernotes playernote-new",
+                  "data-ys-playerid": "28227",
+                  "data-ys-playernote-view": "notes",
+                  "id": "playernote-28227",
+                  "aria-label": "Open player notes for Cairo Santos"
+                }
+              },
+              {
+                "text": "Sun 1:00 pm vs",
+                "href": "https://sports.yahoo.com/nfl/minnesota-vikings-chicago-bears-20260920003/",
+                "title": "",
+                "attributes": {
+                  "class": "F-reset D-if Ai-c"
+                }
+              },
+              {
+                "text": "Min",
+                "href": "https://football.fantasysports.yahoo.com/f1/100/pointsagainst?pos=K&ntid=16",
+                "title": "MIN gives up the 5th most fantasy points to the K position.",
+                "attributes": {
+                  "class": "Inline F-rank-good",
+                  "title": "MIN gives up the 5th most fantasy points to the K position."
+                }
+              }
+            ],
+            "controls": [
+              {
+                "tag": "button",
+                "type": "button",
+                "name": "",
+                "text": "—",
+                "value": "",
+                "disabled": false,
+                "attributes": {
+                  "data-check-box-value": "28227 ",
+                  "class": "add-drop-trigger-btn pos-label Btn-primary Inlineblock P-med Px-lg Lh-1",
+                  "title": "Click to drop this player"
+                },
+                "options": []
+              }
+            ],
+            "attributes": {
+              "class": "First Last"
+            }
+          }
+        ]
+      },
+      {
+        "caption": "",
+        "attributes": {},
+        "headers": [
+          "Drop",
+          "Defense/Special Teams",
+          "Opp",
+          "Bye",
+          "Fan Pts",
+          "Pre-Season",
+          "Actual",
+          "% Ros",
+          "Pts vs.",
+          "Sack",
+          "Safe",
+          "Int",
+          "Fum Rec",
+          "TD",
+          "Blk Kick",
+          "TD",
+          ""
+        ],
+        "rows": [
+          {
+            "cells": [
+              "—",
+              "TexansNo new player Notes\nHou - DEF\nSun 1:00 pm vs Cin",
+              "Cincinnati",
+              "8",
+              "–",
+              "150",
+              "-",
+              "98%",
+              "-",
+              "-",
+              "-",
+              "-",
+              "-",
+              "-",
+              "-",
+              "-",
+              ""
+            ],
+            "links": [
+              {
+                "text": "Texans",
+                "href": "https://sports.yahoo.com/nfl/teams/houston/",
+                "title": "Texans",
+                "attributes": {
+                  "class": "Nowrap name F-link playernote",
+                  "data-ys-playerid": "100034",
+                  "data-ys-playernote-view": "notes",
+                  "id": "playernote-100034",
+                  "title": "Texans"
+                }
+              },
+              {
+                "text": "No new player Notes",
+                "href": "https://sports.yahoo.com/nfl/teams/houston/",
+                "title": "",
+                "attributes": {
+                  "class": "playernote Ta-start yfa-icon Z-1 yfa-rapid-beacon yfa-rapid-module-playernotes playernote-old",
+                  "data-ys-playerid": "100034",
+                  "data-ys-playernote-view": "notes",
+                  "id": "playernote-100034",
+                  "aria-label": "Open player notes for Texans"
+                }
+              },
+              {
+                "text": "Sun 1:00 pm vs",
+                "href": "https://sports.yahoo.com/nfl/cincinnati-bengals-houston-texans-20260920034/",
+                "title": "",
+                "attributes": {
+                  "class": "F-reset D-if Ai-c"
+                }
+              },
+              {
+                "text": "Cin",
+                "href": "https://football.fantasysports.yahoo.com/f1/100/pointsagainst?pos=DEF&ntid=4",
+                "title": "CIN gives up the 10th most fantasy points to the DEF position.",
+                "attributes": {
+                  "class": "Inline F-rank-good",
+                  "title": "CIN gives up the 10th most fantasy points to the DEF position."
+                }
+              }
+            ],
+            "controls": [
+              {
+                "tag": "button",
+                "type": "button",
+                "name": "",
+                "text": "—",
+                "value": "",
+                "disabled": false,
+                "attributes": {
+                  "data-check-box-value": "100034 ",
+                  "class": "add-drop-trigger-btn pos-label Btn-primary Inlineblock P-med Px-lg Lh-1",
+                  "title": "Click to drop this player"
+                },
+                "options": []
+              }
+            ],
+            "attributes": {
+              "class": "First Last"
+            }
+          }
+        ]
+      }
+    ],
+    "forms": []
+  }
+}

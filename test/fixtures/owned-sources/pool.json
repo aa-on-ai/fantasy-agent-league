@@ -1,0 +1,460 @@
+{
+  "observationId": "a859c9699e16318b37f414b7eda02b239e162d7e0c2755047e4fb04986dc207b",
+  "profileId": "fixture-profile",
+  "url": "https://football.fantasysports.yahoo.com/f1/100/players",
+  "capturedAt": "2026-09-15T22:37:57.424Z",
+  "dom": {
+    "title": "Player List | Fantasy Football | Yahoo! Sports",
+    "text": "All game times are shown in EDT.",
+    "headings": [],
+    "links": [
+      {
+        "text": "My Team",
+        "href": "https://football.fantasysports.yahoo.com/f1/100/1",
+        "title": "",
+        "attributes": {
+          "class": "_yb_p1y64c    rapid-noclick-resp",
+          "data-ylk": "cpos:3;slk:My Team;elm:navcat;sec:ybar;subsec:navrail;pkgt:mid;itc:0;",
+          "data-yga": "{\"yLinkText\":\"My Team\",\"yLinkElement\":\"navcat\",\"ySection\":\"primary-nav\",\"ySubModuleName\":\"top-bar\"}"
+        }
+      }
+    ],
+    "controls": [
+      {
+        "tag": "select",
+        "type": "",
+        "name": "status",
+        "text": "All Players\nAll Available Players\nFree Agents Only\nWaivers Only\nKeepers Only\nAll Taken Players",
+        "value": "A",
+        "disabled": false,
+        "attributes": {
+          "id": "statusselect",
+          "data-rapid-select-event-name": "players_filter_status_selection"
+        },
+        "options": [
+          {
+            "text": "All Players",
+            "value": "ALL",
+            "selected": false,
+            "disabled": false
+          },
+          {
+            "text": "All Available Players",
+            "value": "A",
+            "selected": true,
+            "disabled": false
+          },
+          {
+            "text": "Free Agents Only",
+            "value": "FA",
+            "selected": false,
+            "disabled": false
+          },
+          {
+            "text": "Waivers Only",
+            "value": "W",
+            "selected": false,
+            "disabled": false
+          },
+          {
+            "text": "Keepers Only",
+            "value": "K",
+            "selected": false,
+            "disabled": false
+          },
+          {
+            "text": "All Taken Players",
+            "value": "T",
+            "selected": false,
+            "disabled": false
+          }
+        ]
+      },
+      {
+        "tag": "select",
+        "type": "",
+        "name": "stat1",
+        "text": "Week 2 (proj)\nWeek 3 (proj)\nWeek 4 (proj)\nNext 4 Weeks (proj)\nSeason (proj)\nRemaining Games (proj)\nWeek 1\nWeek 2\nSeason (total)\n2025 Season (total)\n2024 Season (total)\nSplits: Season\nSplits: Career\n2026\n2025\nSeason (avg)\nRanks\nGame Day Calls\nResearch\nFantasy Matchups\nOpponents",
+        "value": "S_PW_2",
+        "disabled": false,
+        "attributes": {
+          "id": "statselect",
+          "data-rapid-select-event-name": "players_filter_stats_selection"
+        },
+        "options": [
+          {
+            "text": "Week 2 (proj)",
+            "value": "S_PW_2",
+            "selected": true,
+            "disabled": false
+          },
+          {
+            "text": "Week 3 (proj)",
+            "value": "S_PW_3",
+            "selected": false,
+            "disabled": false
+          },
+          {
+            "text": "Week 4 (proj)",
+            "value": "S_PW_4",
+            "selected": false,
+            "disabled": false
+          },
+          {
+            "text": "Next 4 Weeks (proj)",
+            "value": "S_PN4W",
+            "selected": false,
+            "disabled": false
+          },
+          {
+            "text": "Season (proj)",
+            "value": "S_PS_2026",
+            "selected": false,
+            "disabled": false
+          },
+          {
+            "text": "Remaining Games (proj)",
+            "value": "S_PSR_2026",
+            "selected": false,
+            "disabled": false
+          },
+          {
+            "text": "Week 1",
+            "value": "S_W_1",
+            "selected": false,
+            "disabled": false
+          },
+          {
+            "text": "Week 2",
+            "value": "S_W_2",
+            "selected": false,
+            "disabled": false
+          },
+          {
+            "text": "Season (total)",
+            "value": "S_S_2026",
+            "selected": false,
+            "disabled": false
+          },
+          {
+            "text": "2025 Season (total)",
+            "value": "S_S_2025",
+            "selected": false,
+            "disabled": false
+          },
+          {
+            "text": "2024 Season (total)",
+            "value": "S_S_2024",
+            "selected": false,
+            "disabled": false
+          },
+          {
+            "text": "Splits: Season",
+            "value": "S_SPS_2026",
+            "selected": false,
+            "disabled": false
+          },
+          {
+            "text": "Splits: Career",
+            "value": "S_SPC",
+            "selected": false,
+            "disabled": false
+          },
+          {
+            "text": "2026",
+            "value": "ADVST_ADVST_2026",
+            "selected": false,
+            "disabled": false
+          },
+          {
+            "text": "2025",
+            "value": "ADVST_ADVST_2025",
+            "selected": false,
+            "disabled": false
+          },
+          {
+            "text": "Season (avg)",
+            "value": "S_AS_2026",
+            "selected": false,
+            "disabled": false
+          },
+          {
+            "text": "Ranks",
+            "value": "K_K",
+            "selected": false,
+            "disabled": false
+          },
+          {
+            "text": "Game Day Calls",
+            "value": "G_G",
+            "selected": false,
+            "disabled": false
+          },
+          {
+            "text": "Research",
+            "value": "R_O",
+            "selected": false,
+            "disabled": false
+          },
+          {
+            "text": "Fantasy Matchups",
+            "value": "M_W",
+            "selected": false,
+            "disabled": false
+          },
+          {
+            "text": "Opponents",
+            "value": "O_O",
+            "selected": false,
+            "disabled": false
+          }
+        ]
+      }
+    ],
+    "tables": [
+      {
+        "caption": "",
+        "attributes": {},
+        "headers": [
+          "",
+          "",
+          "Offense",
+          "Roster Status",
+          "GP*",
+          "Bye",
+          "Fan Pts",
+          "Pre-Season",
+          "Actual",
+          "% Ros",
+          "Yds",
+          "TD",
+          "Int",
+          "Att*",
+          "Yds",
+          "TD",
+          "Tgt*",
+          "Rec",
+          "Yds",
+          "TD",
+          "TD",
+          "2PT",
+          "Lost",
+          ""
+        ],
+        "rows": [
+          {
+            "cells": [
+              "",
+              "",
+              "Brock PurdyVideo ForecastPlayer Note\nSF - QB\nSun 4:25 pm vs Mia",
+              "W (Sep 16)",
+              "1",
+              "8",
+              "19.99",
+              "101",
+              "6",
+              "90%",
+              "269",
+              "2.0",
+              "0.8",
+              "3.9",
+              "12.0",
+              "0.2",
+              "-",
+              "-",
+              "-",
+              "-",
+              "-",
+              "0.1",
+              "0.2",
+              ""
+            ],
+            "links": [
+              {
+                "text": "",
+                "href": "https://football.fantasysports.yahoo.com/f1/100/addplayer?apid=34218",
+                "title": "Add Player",
+                "attributes": {
+                  "title": "Add Player",
+                  "class": " F-icon Fz-xs F-positive T-action-icon-add"
+                }
+              },
+              {
+                "text": "",
+                "href": "https://football.fantasysports.yahoo.com/f1/100/addplayerwatch?mid=1&apid=34218&done=https%3A%2F%2Ffootball.fantasysports.yahoo.com%2Ff1%2F100%2Fplayers%3F",
+                "title": "Add to Watch List",
+                "attributes": {
+                  "title": "Add to Watch List",
+                  "class": "watchn watchlist-action F-icon Fz-sm F-watch"
+                }
+              },
+              {
+                "text": "Brock Purdy",
+                "href": "https://sports.yahoo.com/nfl/players/34218",
+                "title": "Brock Purdy",
+                "attributes": {
+                  "class": "Nowrap name F-link playernote",
+                  "data-ys-playerid": "34218",
+                  "data-ys-playernote-view": "notes",
+                  "id": "playernote-34218",
+                  "title": "Brock Purdy"
+                }
+              },
+              {
+                "text": "Video Forecast",
+                "href": "https://football.fantasysports.yahoo.com/f1/100/players",
+                "title": "",
+                "attributes": {
+                  "class": "playernote Ta-start yfa-icon yfa-video-forecast video-new Mend-xs yfa-rapid-beacon yfa-rapid-module-playernotes",
+                  "data-ys-playerid": "34218",
+                  "data-ys-playernote-view": "overview",
+                  "id": "playernote-34218",
+                  "data-video-id": "42af2878-34f8-482c-bf9e-0341f020f0dc"
+                }
+              },
+              {
+                "text": "Player Note",
+                "href": "https://sports.yahoo.com/nfl/players/34218/news",
+                "title": "",
+                "attributes": {
+                  "class": "playernote Ta-start yfa-icon Z-1 yfa-rapid-beacon yfa-rapid-module-playernotes playernote-recent",
+                  "data-ys-playerid": "34218",
+                  "data-ys-playernote-view": "notes",
+                  "id": "playernote-34218",
+                  "aria-label": "Open player notes for Brock Purdy"
+                }
+              },
+              {
+                "text": "Sun 4:25 pm vs",
+                "href": "https://sports.yahoo.com/nfl/miami-dolphins-san-francisco-49ers-20260920025/",
+                "title": "",
+                "attributes": {
+                  "class": "F-reset D-if Ai-c"
+                }
+              },
+              {
+                "text": "Mia",
+                "href": "https://football.fantasysports.yahoo.com/f1/100/pointsagainst?pos=QB&ntid=15",
+                "title": "MIA gives up the 15th fewest fantasy points to the QB position.",
+                "attributes": {
+                  "class": "Inline F-rank-neutral",
+                  "title": "MIA gives up the 15th fewest fantasy points to the QB position."
+                }
+              }
+            ],
+            "controls": [],
+            "attributes": {
+              "class": "First"
+            }
+          },
+          {
+            "cells": [
+              "",
+              "",
+              "C.J. StroudVideo ForecastPlayer Note\nHou - QB\nSun 1:00 pm vs Cin",
+              "W (Sep 16)",
+              "1",
+              "8",
+              "19.28",
+              "175",
+              "8",
+              "29%",
+              "269",
+              "1.9",
+              "0.8",
+              "3.3",
+              "10.4",
+              "0.1",
+              "-",
+              "-",
+              "-",
+              "-",
+              "-",
+              "0.1",
+              "0.1",
+              ""
+            ],
+            "links": [
+              {
+                "text": "",
+                "href": "https://football.fantasysports.yahoo.com/f1/100/addplayer?apid=40030",
+                "title": "Add Player",
+                "attributes": {
+                  "title": "Add Player",
+                  "class": " F-icon Fz-xs F-positive T-action-icon-add"
+                }
+              },
+              {
+                "text": "",
+                "href": "https://football.fantasysports.yahoo.com/f1/100/addplayerwatch?mid=1&apid=40030&done=https%3A%2F%2Ffootball.fantasysports.yahoo.com%2Ff1%2F100%2Fplayers%3F",
+                "title": "Add to Watch List",
+                "attributes": {
+                  "title": "Add to Watch List",
+                  "class": "watchn watchlist-action F-icon Fz-sm F-watch"
+                }
+              },
+              {
+                "text": "C.J. Stroud",
+                "href": "https://sports.yahoo.com/nfl/players/40030",
+                "title": "C.J. Stroud",
+                "attributes": {
+                  "class": "Nowrap name F-link playernote",
+                  "data-ys-playerid": "40030",
+                  "data-ys-playernote-view": "notes",
+                  "id": "playernote-40030",
+                  "title": "C.J. Stroud"
+                }
+              },
+              {
+                "text": "Video Forecast",
+                "href": "https://football.fantasysports.yahoo.com/f1/100/players",
+                "title": "",
+                "attributes": {
+                  "class": "playernote Ta-start yfa-icon yfa-video-forecast video-new Mend-xs yfa-rapid-beacon yfa-rapid-module-playernotes",
+                  "data-ys-playerid": "40030",
+                  "data-ys-playernote-view": "overview",
+                  "id": "playernote-40030",
+                  "data-video-id": "791b7c5b-32e4-4497-baa1-d96375c4601b"
+                }
+              },
+              {
+                "text": "Player Note",
+                "href": "https://sports.yahoo.com/nfl/players/40030/news",
+                "title": "",
+                "attributes": {
+                  "class": "playernote Ta-start yfa-icon Z-1 yfa-rapid-beacon yfa-rapid-module-playernotes playernote-recent",
+                  "data-ys-playerid": "40030",
+                  "data-ys-playernote-view": "notes",
+                  "id": "playernote-40030",
+                  "aria-label": "Open player notes for C.J. Stroud"
+                }
+              },
+              {
+                "text": "Sun 1:00 pm vs",
+                "href": "https://sports.yahoo.com/nfl/cincinnati-bengals-houston-texans-20260920034/",
+                "title": "",
+                "attributes": {
+                  "class": "F-reset D-if Ai-c"
+                }
+              },
+              {
+                "text": "Cin",
+                "href": "https://football.fantasysports.yahoo.com/f1/100/pointsagainst?pos=QB&ntid=4",
+                "title": "CIN gives up the 6th fewest fantasy points to the QB position.",
+                "attributes": {
+                  "class": "Inline F-rank-bad",
+                  "title": "CIN gives up the 6th fewest fantasy points to the QB position."
+                }
+              }
+            ],
+            "controls": [],
+            "attributes": {
+              "class": "Alt"
+            }
+          }
+        ]
+      }
+    ],
+    "forms": []
+  }
+}

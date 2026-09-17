@@ -1,0 +1,13 @@
+import {mkdir,writeFile} from 'node:fs/promises';
+import {resolve,join} from 'node:path';
+import {withOwnedBrowser,OWNED_BROWSER_PROFILE} from '../dist/src/platforms/yahoo/owned-browser.js';
+import {collectOwnedLineup} from '../dist/src/platforms/yahoo/owned-collector.js';
+import {FileLedger} from '../dist/src/execution/file-ledger.js';
+import {readStop} from '../dist/src/runtime/native-read-proof.js';
+const root=resolve(new URL('..',import.meta.url).pathname),id=process.argv[2];if(!['production','sandbox'].includes(id))throw Error('explicit_scope_required');
+const b={leagueId:id==='production'?'425299':'1659459',teamId:id==='production'?'11':'1',teamName:id==='production'?'Artificial Grass Intelligence':'Stiff Arm ae',profileId:'fantasy-agent-1-owned-chrome',season:2026,period:'2',maxAgeMs:900000};
+const dir=join(root,'runtime/private/owned-assessments',id+'-'+new Date().toISOString().replaceAll(':','-'));await mkdir(dir,{recursive:true,mode:0o700});
+const record=async o=>writeFile(join(dir,o.observationId+'.json'),JSON.stringify(o)+'\n',{flag:'wx',mode:0o600});
+const checkpoint=async()=>{if(await readStop(join(root,'runtime/private/emergency-stop'))!=='clear')throw Error('emergency_stop');};
+const ledger=new FileLedger(join(root,'runtime/private/browser-ledger'));
+await ledger.exclusive('yahoo-owned-browser:'+b.profileId,()=>withOwnedBrowser({profilePath:OWNED_BROWSER_PROFILE},async page=>{const a=await collectOwnedLineup(page,b,record,checkpoint);await writeFile(join(dir,'assessment.json'),JSON.stringify(a)+'\n',{flag:'wx',mode:0o600});console.log(JSON.stringify({dir,readiness:a.readiness,gaps:a.gaps,players:a.snapshot?.roster.length,sources:a.sources.length}));}));
